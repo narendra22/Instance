@@ -17,7 +17,7 @@
    - Assign an Elastic IP to the network interface created in step 7
    - Create Ubuntu server and install Jenkins 
    
-- #### This repository mainly contains 2 files - Jenkins.tf and variables.tf
+- #### This repository mainly contains 2 files - Jenkins.tf and variables.tf and there's one more file that you need to create but shouldn't upload onto github i.e. terraform.tfvars. This file contains the access key and secret key of the AWS user, sharing them will pose a security threat to your AWS account.
    
    
 
